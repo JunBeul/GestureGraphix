@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.18028328, g: 0.22571322, b: 0.30692163, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -274,7 +274,7 @@ Camera:
     width: 1
     height: 1
   near clip plane: 0.3
-  far clip plane: 1000
+  far clip plane: 10
   field of view: 60
   orthographic: 0
   orthographic size: 5
@@ -301,7 +301,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
   m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
-  m_LocalPosition: {x: 0.99, y: 1.19, z: -2.8}
+  m_LocalPosition: {x: 1, y: 1, z: -1.69}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -373,6 +373,10 @@ PrefabInstance:
       propertyPath: distanceToTarget
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 3825184488648468628, guid: 3a4e03750bfb511498638bdd6610f2e4, type: 3}
+      propertyPath: m_ApplyRootMotion
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4980627564190235426, guid: 3a4e03750bfb511498638bdd6610f2e4, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -419,7 +423,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6745689313697261336, guid: 3a4e03750bfb511498638bdd6610f2e4, type: 3}
       propertyPath: m_Name
-      value: 4955075854217751347
+      value: a
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 1707102063395739881, guid: 3a4e03750bfb511498638bdd6610f2e4, type: 3}
